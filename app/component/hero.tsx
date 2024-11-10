@@ -11,7 +11,7 @@ function Hero() {
       <section className="body-font bg-[#faede4]">
         <div className="container mx-auto flex px-2 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className=" text-yellow-950 title-font sm:text-4xl text-3xl mb-4 font-medium">
+            <h1 className=" text-yellow-950 title-font sm:text-4xl text-3xl mb-4 font-medium lg:ml-8">
               I am
               <br className="hidden lg:inline-block" />
               <Typewriter
@@ -22,13 +22,13 @@ function Hero() {
                 }}
               />
             </h1>
-            <div className="w-[100px] h-[2px]  bg-yellow-950" />
-            <p className="mb-8 leading-relaxed font-semibold">
+            <div className="w-[100px] h-[2px]  bg-yellow-950 lg:ml-8" />
+            <p className="mb-8 leading-relaxed font-semibold lg:ml-8">
               As a dedicated student at GIAIC, I ve built a solid foundation in
               HTML CSS JavaScript TypeScript and Next.js fueling my journey into the world of
               technology.
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center lg:ml-8">
               <Link
                 target="_blank"
                 href={"https://www.linkedin.com/in/nousheen-atif-7873a28a"}
