@@ -32,12 +32,12 @@ function Contact() {
                   EMAIL
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
-                  onlinework@email.com
+                  onlinework42101@email.com
                 </a>
                 <h2 className="title-font font-semibold text-yellow-950 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">0234-953-0921</p>
+                <p className="leading-relaxed">0329-2018213</p>
               </div>
             </div>
           </div>
