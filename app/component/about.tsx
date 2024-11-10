@@ -33,11 +33,11 @@ function About() {
               coding, I love exploring design, refining user interfaces, and
               staying updated with the latest tech trends. Always excited to
               collaborate, I aim to continuously grow, innovate, and
-              contribute to impactful projects. Let’s connect and create
+              contribute to impactful projects. Let...s connect and create
               something amazing together...
             </p>
             <div className="flex justify-center">
-              <Link href="/assests/cv/Nousheen 0123.pdf">
+              <Link href="https://hackathon-milestones01-02-q7c5.vercel.app/">
                 <button className="inline-flex text-white  bg-yellow-950 border-0 py-2 px-6 focus:outline-none hover:bg-[#6b5d53] rounded text-lg">
                   View CV
                 </button>

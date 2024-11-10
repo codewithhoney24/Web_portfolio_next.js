@@ -19,13 +19,13 @@ function Project() {
               interactive interfaces!
             </p>
           </div>
-          <div className="flex flex-wrap -mt-[3rem]">
+          <div className="flex flex-wrap -mt-[3rem]" >
             {/* project 1 */}
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 ">
               <div className="flex relative">
                 <Image
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center "
                   src="/assests/project/prj01.jpg"
                   width={500}
                   height={500}
@@ -95,7 +95,7 @@ function Project() {
 
             {/* project 3 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
+              <div className="flex relative " >
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -103,7 +103,7 @@ function Project() {
                   width={500}
                   height={500}
                 />
-                <div className="px-8 py-5 relative z-10 w-full border-4 border-yellow-950 bg-[#d4baa7] opacity-0 hover:opacity-100">
+                <div className="px-8 py-5  relative z-10 w-full border-4 border-yellow-950 bg-[#d4baa7] opacity-0 hover:opacity-100">
                   <h2 className=" ml-1 tracking-widest text-xl title-font font-bold text-yellow-950">
                     User-Interface
                   </h2>
@@ -125,6 +125,25 @@ function Project() {
               </div>
             </div>
           </div>
+ {/* More Projects and Vercel Button */}
+ <div className="flex justify-center gap-4 mt-10">
+            <Link
+              href="https://github.com/codewithhoney24"
+              target="_blank"
+              className="bg-yellow-950 text-white px-6 py-3 rounded-lg font-bold hover:bg-yellow-800"
+            >
+              More Projects on GitHub
+            </Link>
+            <Link
+              href="https://vercel.com/nousheen-atif"
+              target="_blank"
+              className=" text-yellow-950 bg-gray-100 border-0 py-3 px-6 focus:outline-none hover:bg-[#918074] rounded-lg font-bold"
+            >
+              View Project on Vercel
+            </Link>
+          </div>
+
+
         </div>
       </section>
     </div>

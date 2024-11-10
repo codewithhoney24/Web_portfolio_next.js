@@ -23,7 +23,7 @@ function Navbar() {
       <Link  href={"#Contact"} className="mr-5 hover:text-yellow-700">Contact</Link>
       
     </nav>
-    <a href="/assests/cv/Nousheen 0123.pdf">
+    <a href="https://hackathon-milestones01-02-q7c5.vercel.app/">
     <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-[#918074] rounded  font-extrabold text-base  mt-4 md:mt-0">
       Download Cv
 <AiOutlineCloudDownload className='text-xl ml-2'/>
